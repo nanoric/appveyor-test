@@ -6,6 +6,5 @@ environment:
 build_script:
   - sh: echo $PATH
   - cmd: echo %PATH%
-  - ps: "ls: Env:*"
-  - ps: ls: Env:*
-
+  - ps: "ls Env:*"
+  - ps: ls Env:*
