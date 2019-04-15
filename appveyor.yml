@@ -1,8 +1,5 @@
 image: Ubuntu1804
 
-environment:
-  PATH: C:\Python37-x64;%PATH%
-
 build_script:
   - ls -a
   - echo $PATH
