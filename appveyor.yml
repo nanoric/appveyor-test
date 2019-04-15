@@ -4,6 +4,6 @@ environment:
   PATH: C:\Python37-x64;%PATH%
 
 build_script:
-  - cmd:  "echo $PATH"  #
+  - cmd:  "echo %PATH%"
   - cmd:  "set>a.txt; cat a.txt"
 
