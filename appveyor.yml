@@ -4,12 +4,12 @@ environment:
   PATH: C:\Python37-x64;%PATH%
 
 build_script:
-  - ls -a
-  - echo $PATH
-  - echo %PATH%
-  - sh: ls -l
-  - sh: echo $PATH
-  - sha: echo $PATH
-  - cmd: echo %PATH%
-  - ps: "ls Env:*"
-  - ps: ls Env:*
+  - ps: $a="12345"
+  - ps: echo $a
+  - echo asdf
+  - ps: echo $a
+  - set A=AAA
+  - ps: echo $ENV:A
+  - ps: $ENV:B="BBBB"
+  - echo %B%
+
